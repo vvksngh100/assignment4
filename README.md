@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+📘 Assignment 4 – Responsive React App with Routing
+🚀 Live Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click below link to view deployed app
+https://assignment4-rho-seven.vercel.app/
 
-## Available Scripts
+📌 Project Overview
 
-In the project directory, you can run:
+This is a responsive React application built using React Router and Bootstrap.
+It contains four main pages:
 
-### `npm start`
+🏠 Home – Attractive hero banner with responsive design theme.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ℹ️ About – Information about the project/team with engaging visuals.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👤 User Info – Displays user details such as name, age, DOB, email, and avatar (using Bootstrap Icons).
 
-### `npm test`
+❌ Not Found Page – Shown when a user tries to access an undefined route.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app also includes a Header/Navbar with a logo and navigation links, and is fully responsive across all screen sizes.
 
-### `npm run build`
+📷 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+(Add your project screenshots here)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Home Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+About Page
 
-### `npm run eject`
+User Info Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Not Found Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🛠️ Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React – Frontend library
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router – Client-side routing
 
-## Learn More
+Bootstrap – Styling & responsive grid system
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bootstrap Icons – Icons for UI elements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Vercel – Deployment
 
-### Code Splitting
+⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Follow these steps to run the project locally:
 
-### Analyzing the Bundle Size
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone https://github.com/vvksngh100/assignment4.git
+cd assignment4
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies:
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open your browser and go to:
+
+http://localhost:3000
+
+📂 Project Structure
+src/
+ ┣ components/
+ ┃ ┗ Navbar.js        # Header with logo + nav links
+ ┣ pages/
+ ┃ ┣ Home.js          # Hero section with responsive banner
+ ┃ ┣ About.js         # Project/Team details with image
+ ┃ ┣ UserInfo.js      # User details (name, age, dob, email, avatar)
+ ┃ ┗ NotFound.js      # 404 fallback page
+ ┣ App.js             # Routes setup with React Router
+ ┗ index.js           # App entry point, Bootstrap & Router setup
+
+✨ Features
+
+✅ Responsive Design – Works seamlessly on desktop, tablet, and mobile.
+
+✅ Attractive UI – Styled using Bootstrap and modern layout.
+
+✅ Interactive Navbar – Collapsible hamburger menu on smaller screens.
+
+✅ User Info Page – Clean profile card with Bootstrap Icon avatar.
+
+✅ 404 Page – Friendly error page for undefined routes.
+
+✅ Deployed on Vercel – Easily accessible online.
+
+🎨 Customization
+
+Replace the placeholder images in Home/About with your own responsive design visuals.
+
+Update User Info details dynamically (could be from API in future).
+
+Modify theme colors or add custom CSS for branding.
+
+Extend with extra routes or protected routes if required.
+
+🙏 Acknowledgements
+
+React
+
+React Router
+
+Bootstrap
+
+Bootstrap Icons
+
+Unsplash
+ for free placeholder images
+
+Vercel
+ for deployment
+
+👨‍💻 Author
+
+Developed as part of Assignment 4 – React with Routing & Responsive Design.
